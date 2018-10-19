@@ -1,0 +1,6 @@
+<navigator url="{{url}}" class="panel">
+  <view class="cell">
+    <icon class="iconfont icon-{{icon}}"></icon>
+    <text>{{text}}</text>
+  </view>
+</navigator>

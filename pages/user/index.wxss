@@ -1,0 +1,11 @@
+/**index.wxss**/
+@import "../../lib/style/iconfont.wxss";
+
+.row-panel {
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.row-panel:last-child, .row-panel:first-child {
+  border: none;
+}

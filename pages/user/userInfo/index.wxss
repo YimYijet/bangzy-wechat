@@ -1,0 +1,46 @@
+.panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx 50rpx;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: #666;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.userinfo-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 20rpx;
+  color: #353535;
+  font-size: 32rpx;
+}
+
+.userinfo-account {
+  color: #888;
+  font-size: 24rpx;
+}

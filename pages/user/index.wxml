@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y>
+  <userInfo url="../logs/logs"></userInfo>
+  <text>\n\n</text>
+  <tabBar
+    class="row-panel"
+    icon="message"
+    text="我的消息"
+    url="../logs/logs">
+  </tabBar>
+  <tabBar
+    class="row-panel"
+    icon="redenvelope"
+    text="我的红包"
+    url="../logs/logs">
+  </tabBar>
+  <tabBar
+    class="row-panel"
+    icon="gift"
+    text="推荐给好友"
+    url="../logs/logs">
+  </tabBar>
+  <tabBar
+    class="row-panel"
+    icon="setting"
+    text="设置"
+    url="../logs/logs">
+  </tabBar>
+</scroll-view>

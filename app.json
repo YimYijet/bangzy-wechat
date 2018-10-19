@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/user/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    ".gitignore"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "帮志愿",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#888",
+    "selectedColor": "#353535",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "selectedIconPath": "assets/icon/compass-fill.png",
+        "iconPath": "assets/icon/compass.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "selectedIconPath": "assets/icon/smile-fill.png",
+        "iconPath": "assets/icon/smile.png"
+      }
+    ]
+  },
+  "debug": true
+}

@@ -1,0 +1,27 @@
+@import "/lib/style/iconfont.wxss";
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx 50rpx;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: #666;
+}
+
+.cell text {
+  height:72rpx;
+  line-height:72rpx;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+}
+
+.cell icon {
+  margin-right: 40rpx;
+}
