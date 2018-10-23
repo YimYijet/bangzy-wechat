@@ -2,8 +2,7 @@
   "pages": [
     "pages/user/index",
     "pages/index/index",
-    "pages/logs/logs",
-    ".gitignore"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,6 +20,12 @@
         "text": "发现",
         "selectedIconPath": "assets/icon/compass-fill.png",
         "iconPath": "assets/icon/compass.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "位置",
+        "selectedIconPath": "assets/icon/location-fill.png",
+        "iconPath": "assets/icon/location.png"
       },
       {
         "pagePath": "pages/user/index",

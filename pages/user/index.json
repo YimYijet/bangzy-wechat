@@ -1,6 +1,6 @@
 {
   "usingComponents": {
     "tabBar": "/pages/component/tabBar/index",
-    "userInfo": "userInfo/index"
+    "userInfo": "component/userInfo/index"
   }
 }
