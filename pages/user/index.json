@@ -2,5 +2,8 @@
   "usingComponents": {
     "tabBar": "/pages/component/tabBar/index",
     "userInfo": "component/userInfo/index"
+  },
+  "window": {
+    "backgroundColor": "#eee"
   }
 }

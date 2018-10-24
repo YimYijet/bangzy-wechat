@@ -1,7 +1,7 @@
 <view wx:if="{{!hasUserInfo && canIUse}}" class="userinfo-login"> 
   <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信登入</button>
 </view>
-<navigator wx:else url="url" class="panel">
+<navigator wx:else url="link" class="panel">
   <view class="userinfo">
     <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
     <view class="userinfo-cell">

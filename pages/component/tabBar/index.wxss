@@ -25,3 +25,14 @@
 .cell icon {
   margin-right: 40rpx;
 }
+
+.msg-count {
+  color: #fff;
+  background: #66ccff;
+  min-width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  text-align: center;
+}

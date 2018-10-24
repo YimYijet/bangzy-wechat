@@ -1,29 +1,48 @@
 <!--index.wxml-->
-<scroll-view class="container" scroll-y>
-  <userInfo url="../logs/logs"></userInfo>
-  <text>\n\n</text>
-  <tabBar
-    class="row-panel"
-    icon="message"
-    text="我的消息"
-    url="../logs/logs">
-  </tabBar>
-  <tabBar
-    class="row-panel"
-    icon="redenvelope"
-    text="我的红包"
-    url="../logs/logs">
-  </tabBar>
-  <tabBar
-    class="row-panel"
-    icon="gift"
-    text="推荐给好友"
-    url="../logs/logs">
-  </tabBar>
-  <tabBar
-    class="row-panel"
-    icon="setting"
-    text="设置"
-    url="../logs/logs">
-  </tabBar>
+<scroll-view class="container" scroll-y style="background: #eee; height: 100vh;">
+  <view style="background: #fff; padding: 36rpx 0;">
+    <userInfo link="../logs/logs"></userInfo>
+  </view>
+  <text>\n</text>
+  <view style="background: #fff">
+    <tabBar
+      class="row-panel"
+      icon="message"
+      text="我的消息"
+      link="../logs/logs">
+    </tabBar>
+    <tabBar
+      class="row-panel"
+      icon="redenvelope"
+      text="我的红包"
+      link="../logs/logs">
+    </tabBar>
+    <tabBar
+      class="row-panel"
+      icon="gift"
+      text="推荐给好友"
+      link="../logs/logs">
+    </tabBar>
+    <tabBar
+      class="row-panel"
+      icon="eye"
+      text="阅读过的文章"
+      link="../logs/logs">
+    </tabBar>
+    <tabBar
+      class="row-panel"
+      icon="container"
+      text="咨询历史"
+      link="../logs/logs">
+    </tabBar>
+  </view>
+  <text>\n</text>
+  <view style="background: #fff">
+    <tabBar
+      class="row-panel"
+      icon="setting"
+      text="设置"
+      link="../logs/logs">
+    </tabBar>
+  </view>
 </scroll-view>

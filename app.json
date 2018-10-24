@@ -1,7 +1,8 @@
 {
   "pages": [
+    "pages/discovery/index",
     "pages/user/index",
-    "pages/index/index",
+    "pages/location/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -16,13 +17,13 @@
     "selectedColor": "#353535",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/discovery/index",
         "text": "发现",
         "selectedIconPath": "assets/icon/compass-fill.png",
         "iconPath": "assets/icon/compass.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/location/index",
         "text": "位置",
         "selectedIconPath": "assets/icon/location-fill.png",
         "iconPath": "assets/icon/location.png"

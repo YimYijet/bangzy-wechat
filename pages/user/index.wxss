@@ -6,6 +6,6 @@
   border-bottom: 1px solid #eee;
 }
 
-.row-panel:last-child, .row-panel:first-child {
+.row-panel:last-child {
   border: none;
 }

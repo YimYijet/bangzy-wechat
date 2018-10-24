@@ -1,6 +1,7 @@
-<navigator url="{{url}}" class="panel">
+<navigator url="{{link}}" class="panel">
   <view class="cell">
     <icon class="iconfont icon-{{icon}}"></icon>
     <text>{{text}}</text>
   </view>
+  <view wx:if="{{!!msgCount}}" class="msg-count">{{msgCount}}</view>
 </navigator>

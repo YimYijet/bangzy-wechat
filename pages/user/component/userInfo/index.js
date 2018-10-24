@@ -2,7 +2,7 @@ const app = getApp()
 
 Component({
   properties: {
-    url: {
+    link: {
       type: String,
       value: ''
     }
