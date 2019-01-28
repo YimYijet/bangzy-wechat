@@ -5,5 +5,7 @@
   },
   "window": {
     "backgroundColor": "#eee"
-  }
+  },
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "black"
 }

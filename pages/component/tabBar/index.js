@@ -12,21 +12,13 @@ Component({
       type: String,
       value: ''
     },
-    url: {
+    msgCount: {
       type: String,
       value: ''
     }
   },
-  data: {
-    msgCount: 0
-  },
   lifetimes: {
     attached() {
-      if (this.properties.url) {
-        // wx.request({
-        //   url: '',
-        // })
-      }
     }
   }
 })

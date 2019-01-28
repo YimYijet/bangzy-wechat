@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <scroll-view class="container" scroll-y style="background: #eee; height: 100vh;">
-  <view style="background: #fff; padding: 36rpx 0;">
+  <view style="background: #fff;">
     <userInfo link="../logs/logs"></userInfo>
   </view>
   <text>\n</text>
@@ -9,6 +9,7 @@
       class="row-panel"
       icon="message"
       text="我的消息"
+      msgCount="1"
       link="../logs/logs">
     </tabBar>
     <tabBar

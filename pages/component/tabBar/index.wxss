@@ -28,11 +28,11 @@
 
 .msg-count {
   color: #fff;
-  background: #66ccff;
-  min-width: 36rpx;
+  background: #ed3f14;
+  width: 68rpx;
   height: 36rpx;
   line-height: 36rpx;
   font-size: 24rpx;
-  border-radius: 4rpx;
+  border-radius: 8rpx;
   text-align: center;
 }
